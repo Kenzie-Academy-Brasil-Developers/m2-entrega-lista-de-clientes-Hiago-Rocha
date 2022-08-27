@@ -30,7 +30,7 @@ class Api {
     }
 
     static async deletarCliente(id){
-        
+
     }
 
 }
