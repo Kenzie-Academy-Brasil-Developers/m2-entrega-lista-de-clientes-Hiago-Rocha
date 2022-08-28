@@ -22,10 +22,13 @@
         
         <label for="cliente">Escolha o cliente que quer Deletar</label>
         
-        <select name="cliente" ></select>
+        <select name="cliente" id="selectDelete">
+            <option value=""></option>
+        </select>
 
-        <button>Deletar</button>
+        <button id="delete">Deletar</button>
     </form>
-
+    <script type="module" src="../js/api.js"></script>
+    <script type="module" src="../js/deletar.js"></script>
 </body>
 </html>
