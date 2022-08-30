@@ -18,6 +18,7 @@ selecionaCliente()
 
 const btnDelete = document.getElementById("delete")
         btnDelete.addEventListener("click", (event) =>{
+            event.preventDefault()
             let opçãoValor = select.options[select.selectedIndex].value
             console.log(opçãoValor)
             if(opçãoValor <= 6){

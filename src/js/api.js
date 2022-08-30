@@ -48,6 +48,7 @@ class Api {
             method: "DELETE",
             headers: {"Content-Type": "application/json"}
         })
+        window.location.assign("../pages/deletar.html")
     }
 
 }
